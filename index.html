@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+	<meta charset="utf-8">	
+	<title>秋瓜/Qiugua-Tpl</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="keywords" content="Qiugua-Tpl"/>
+	<meta name="description" content="Qiugua-Tpl"/>
+	<link rel="stylesheet" type="text/css" href="Assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="Assets/plugins/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="Assets/layout/layout.main.css"/>
+	<link rel="stylesheet" type="text/css" href="Assets/layout/skin/qingxin/skin.css" id="layout-skin"/>
+  </head>
+  
+  <body onSelectStart="return false">
+	<div class="layout-admin">
+		<header class="layout-header">
+			<div class="logo"><img src="Assets/layout/image/logo.png"></div>
+			<span class="header-logo">Qiugua-Tpl</span> 
+			<a class="header-menu-btn" href="javascript:;"><i class="fa fa-list" aria-hidden="true"></i></a>
+			<ul class="header-bar">
+				<li class="header-bar-role"><a href="javascript:;">超级管理员</a></li>
+				<li class="header-bar-nav">
+					<a href="javascript:;">admin <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+					<ul class="header-dropdown-menu">
+						<li><a href="javascript:;">个人信息</a></li>
+						<li><a href="javascript:;">切换账户</a></li>
+						<li><a href="login.html">退  出</a></li>
+					</ul>
+				</li>
+				<!-- <li class="header-bar-nav"> 
+					<a href="javascript:;" title="换肤"><i class="icon-font">&#xe608;</i></a>
+					<ul class="header-dropdown-menu right dropdown-skin">
+						<li><a href="javascript:;" data-val="qingxin" title="清新">清新</a></li>
+						<li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
+						<li><a href="javascript:;" data-val="molv" title="墨绿">墨绿</a></li>
+						
+					</ul>
+				</li> -->
+			<li class="header-bar-nav"><a href="#" class="refresh">刷 新 <i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+			<li class="header-bar-nav header-bar-role" style="background:#d60000;"><a href="login.html">注 销 <i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+			<li class="header-bar-nav"><a href="#"> <i class="fa fa-bars" aria-hidden="true"></i></a></li>
+			</ul>
+		</header>
+		<aside class="layout-side">
+		<div class="side-top"><span><i class="fa fa-volume-up fa-lg" aria-hidden="true"></i> 功能菜单</span></div>
+			<ul class="side-menu">
+			  
+			</ul>
+		</aside>
+		<!--右侧菜单伸缩按钮-->
+		<div class="layout-side-arrow"><div class="layout-side-arrow-icon"><i class="fa fa-caret-left" aria-hidden="true"></i></div></div>
+		
+		<section class="layout-main tabs" id="tabs">
+			<!--标签页导航条-->
+	        <div class="tab-header">
+	            <!--左边按钮-->
+	            <a class="tab-left"><i class="fa fa-backward" aria-hidden="true"></i></a>
+	            <!--右边按钮-->
+	            <a class="tab-right"><i class="fa fa-forward" aria-hidden="true"></i></a>
+	            <div class="tabs-wrap">
+	                <!--标签页内容-->
+	                <ul class="tabs-content">
+	                    <li class="active" data-id="0"><a href="javascript:void(0)">首页</a></li>
+	                </ul>
+	            </div>
+	        </div>
+			<div class="layout-main-body tab-panel" id="tab-panel">
+				<div class="panel-content" data-id="0">			
+					<iframe class="body-iframe" name="iframe0" width="100%" height="100%" src="main.html" frameborder="0" seamless>  </iframe>		
+				</div>
+			</div>
+		</section>
+		<div class="layout-footer">Copyright &copy; 2018 秋瓜（Qiugua.net) . All Rights Reserved.</div>
+	</div>
+
+  <ul class="dropdown-menu Rightmenu" style="display: none;z-index: 999999999;">
+  		<li class="tabCloseOne"><a>关闭标签</a></li>
+  		<li class="divider"></li>
+        <li class="tabUpdate"><a>刷新</a></li>
+        <li class="divider"></li>
+        <li class="tabCloseAll"><a>关闭全部选项卡</a></li>
+        <li class="divider"></li>
+        <li class="tabCloseOther"><a>关闭其他选项卡</a></li>
+        <li class="divider"></li>
+        <li class="tabnextClose"><a>关闭右边其他选项卡</a></li>
+        <li class="divider"></li>
+        <li class="tabprevClose"><a>关闭左边其他选项卡</a></li>
+    </ul>
+	
+	<script type="text/javascript" src="Assets/plugins/jquery/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="Assets/plugins/tiplay/tiplay.js"></script>
+	<script type="text/javascript" src="Assets/layout/layout.main.js"></script>
+	<script type="text/javascript" src="Assets/layout/shield.js"></script>
+  </body>
+</html>
