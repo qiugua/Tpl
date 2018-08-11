@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* 清晰 */
+
+/*头部*/
+.layout-header{border-bottom: 0px solid #2e2e2e;background: #303643 !important;background: url('../../../Common/image/top.png') repeat-x;}
+/* 左侧菜单 */
+.layout-side{color: #333;z-index:999;border-right:1px solid #ddd;}
+.side-menu li a i{color: #b6b7b8;}
+.side-menu .menu-item a{color: #333;}
+.side-menu .menu-item:hover > a, .side-menu .menu-item.active > a{color: red; background: #f2f2f2; border-left-color: #069e3f;} 
+.side-menu .menu-header{color: #333; background: #efeef0;border-bottom: 1px solid #e5e5e5;height:39px;line-height:39px;font-weight: 900;} 
+.side-menu .menu-item .label{color: #fff;background: red;}
+.side-menu .menu-item-child li a{color: #000;border-bottom: 1px solid #e5e5e5;}
+.side-menu .menu-item-child li.active > a, .side-menu .menu-item-child li > a:hover{color: #19b955;}
+/*菜单收缩*/
+/* .layout-side-arrow{background-color:#19b955;left:200px;border-left:none;} */
+/* .layout-side-arrow:hover{background-color:red;border:none;} */
+/* .layout-side-arrow:hover i{color:#fff;}
+.layout-side-arrow i{color:#fff;} */
+
+
