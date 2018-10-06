@@ -548,7 +548,7 @@ $(function(){
 	/*菜单json*/
 	var menu = [{"id":"1","name":"内容管理","parentId":"0","url":"","icon":"","order":"1","isHeader":"1","childMenus":[
 					{"id":"3","name":"文章管理","parentId":"1","url":"","icon":"","order":"1","isHeader":"0","childMenus":[
-						{"id":"4","name":"文章审核","parentId":"3","url":"test.html","icon":"","order":"1","isHeader":"0","childMenus":""},
+						{"id":"4","name":"文章审核","parentId":"3","url":"main2.html","icon":"","order":"1","isHeader":"0","childMenus":""},
 						{"id":"5","name":"文章列表","parentId":"3","url":"test2.html","icon":"","order":"1","isHeader":"0","childMenus":""},
 						{"id":"19","name":"发表文章","parentId":"3","url":"test3.html","icon":"","order":"1","isHeader":"0","childMenus":""}
 					]},

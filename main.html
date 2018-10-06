@@ -1,52 +1,628 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 2 | Dashboard</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="rely/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="rely/bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="rely/bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="rely/dist/css/AdminLTE.min.css">
 
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" href="Assets/layout/main.css" />
-	</head>
 
-	<body>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        控制台
+        <small>控制面板</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
+        <li class="active">控制台</li>
+    </ol>
+</section>
 
-		<div class="admin-main">
-			
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
 
-			<blockquote class="elem-quote">
-				<p>本模板是个人业余学习研究整理作品，在网络上参考了大量的资源，仅供学习研究所用。</p>
-				本模板暂时不提供任何文档
-				<p>项目地址：
-					https://gitee.com/qiugua/Tpl
-				</p>
-				<p>建议反馈和BUG收集邮箱:
-					2778516868@qq.com
-				</p>
-				<p>交流QQ群：785865207</p>
-				<p>官    网：www.qiugua.net（暂未开通）</p>
-				<br/>
-				<p style="color: #01AAED;">因工作和生活原因，本模板无固定更新时间，希望大家理解，谢谢。</p>
-			</blockquote>
-			<fieldset class="elem-field">
-				<legend>更新日志</legend>
-				<div class="field-box">
-					<fieldset class="elem-field field-title">
-						<legend>版本号:v0.0.2 2018-05-21</legend>
-						<ol class="decimal">
-							<li>优化TAB菜单</li>
-							<li>修复部分BUG</li>
-						</ol>
-					</fieldset>                  
-					<fieldset class="elem-field field-title">
-						<legend>版本号:v0.0.1 2018-05-20</legend>
-						<ol class="decimal">
-							<li>基本布局 tab + iframe</li>
-							<li>动态添加，删除tab</li>
-						</ol>
-					</fieldset>
-				</div>
-			</fieldset>
-		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	</body>
+            <div class="info-box-content">
+              <span class="info-box-text">会员</span>
+              <span class="info-box-number">1,410</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-flag-o"></i></span>
 
+            <div class="info-box-content">
+              <span class="info-box-text">书签</span>
+              <span class="info-box-number">410111</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-yellow"><i class="fa fa-files-o"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">文件</span>
+              <span class="info-box-number">13,648</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-red"><i class="fa fa-star-o"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">喜欢</span>
+              <span class="info-box-number">93,139</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+      </div>
+    <!-- /.row -->
+
+    <!-- Main row -->
+    <div class="row">
+        <!-- Left col -->
+        <div class="col-md-8">
+            <!-- MAP & BOX PANE -->
+            <!-- TABLE: 最新订单 -->
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <h3 class="box-title">最新订单</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table class="table no-margin">
+                            <thead>
+                            <tr>
+                                <th>订单号</th>
+                                <th>项目</th>
+                                <th>状态</th>
+                                <th>处理进度</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><a href="pages/examples/invo#">OR9842</a></td>
+                                <td>Call of Duty IV</td>
+                                <td><span class="label label-success">运输</span></td>
+                                <td>
+                                    <div class="sparkbar" data-color="#00a65a" data-height="20">90,80,90,-70,61,-83,63</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="pages/examples/invo#">OR1848</a></td>
+                                <td>三星智能电视</td>
+                                <td><span class="label label-warning">等待</span></td>
+                                <td>
+                                    <div class="sparkbar" data-color="#f39c12" data-height="20">90,80,-90,70,61,-83,68</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="pages/examples/invo#">OR7429</a></td>
+                                <td>iPhone 6 Plus</td>
+                                <td><span class="label label-danger">交货</span></td>
+                                <td>
+                                    <div class="sparkbar" data-color="#f56954" data-height="20">90,-80,90,70,-61,83,63</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="pages/examples/invo#">OR7429</a></td>
+                                <td>Samsung Smart TV</td>
+                                <td><span class="label label-info">加工</span></td>
+                                <td>
+                                    <div class="sparkbar" data-color="#00c0ef" data-height="20">90,80,-90,70,-61,83,63</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="pages/examples/invo#">OR1848</a></td>
+                                <td>Samsung Smart TV</td>
+                                <td><span class="label label-warning">等待</span></td>
+                                <td>
+                                    <div class="sparkbar" data-color="#f39c12" data-height="20">90,80,-90,70,61,-83,68</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="pages/examples/invo#">OR7429</a></td>
+                                <td>iPhone 6 Plus</td>
+                                <td><span class="label label-danger">递送</span></td>
+                                <td>
+                                    <div class="sparkbar" data-color="#f56954" data-height="20">90,-80,90,70,-61,83,63</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="pages/examples/invo#">OR9842</a></td>
+                                <td>Call of Duty IV</td>
+                                <td><span class="label label-success">运输</span></td>
+                                <td>
+                                    <div class="sparkbar" data-color="#00a65a" data-height="20">90,80,90,-70,61,-83,63</div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer clearfix">
+                    <a href="javascript:void(0)" class="btn btn-sm btn-info btn-flat pull-left">新订单</a>
+                    <a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-right">查看所有订单</a>
+                </div>
+                <!-- /.box-footer -->
+            </div>
+
+            <!-- /.box -->
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- 聊天 -->
+                    <div class="box box-warning direct-chat direct-chat-warning">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">聊天</h3>
+
+                            <div class="box-tools pull-right">
+                                <span data-toggle="tooltip" title="3 New Messages" class="badge bg-yellow">3</span>
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Contacts" data-widget="chat-pane-toggle">
+                                    <i class="fa fa-comments"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <!-- Conversations are loaded here -->
+                            <div class="direct-chat-messages">
+                                <!-- Message. Default to the left -->
+                                <div class="direct-chat-msg">
+                                    <div class="direct-chat-info clearfix">
+                                        <span class="direct-chat-name pull-left">Qiugua Admin</span>
+                                        <span class="direct-chat-timestamp pull-right">2018/8/21 14:00</span>
+                                    </div>
+                                    <!-- /.direct-chat-info -->
+                                    <img class="direct-chat-img" src="rely/dist/img/user2.png" alt="message user image"><!-- /.direct-chat-img -->
+                                    <div class="direct-chat-text">
+                                        这个模板真的是免费的吗?
+                                    </div>
+                                    <!-- /.direct-chat-text -->
+                                </div>
+                                <!-- /.direct-chat-msg -->
+
+                                <!-- Message to the right -->
+                                <div class="direct-chat-msg right">
+                                    <div class="direct-chat-info clearfix">
+                                        <span class="direct-chat-name pull-right">Qiugua Admin</span>
+                                        <span class="direct-chat-timestamp pull-left">2018/8/21 14:22</span>
+                                    </div>
+                                    <!-- /.direct-chat-info -->
+                                    <img class="direct-chat-img" src="rely/dist/img/user2.png" alt="message user image"><!-- /.direct-chat-img -->
+                                    <div class="direct-chat-text">
+                                        你最好相信!
+                                    </div>
+                                    <!-- /.direct-chat-text -->
+                                </div>
+                                <!-- /.direct-chat-msg -->
+
+                                <!-- Message. Default to the left -->
+                                <div class="direct-chat-msg">
+                                    <div class="direct-chat-info clearfix">
+                                        <span class="direct-chat-name pull-left">Qiugua Admin</span>
+                                        <span class="direct-chat-timestamp pull-right">2018/8/21 15:01</span>
+                                    </div>
+                                    <!-- /.direct-chat-info -->
+                                    <img class="direct-chat-img" src="rely/dist/img/user2.png" alt="message user image"><!-- /.direct-chat-img -->
+                                    <div class="direct-chat-text">
+                                        你想加入秋瓜一起设计更好的网页模板吗？
+                                    </div>
+                                    <!-- /.direct-chat-text -->
+                                </div>
+                                <!-- /.direct-chat-msg -->
+
+                                <!-- Message to the right -->
+                                <div class="direct-chat-msg right">
+                                    <div class="direct-chat-info clearfix">
+                                        <span class="direct-chat-name pull-right">Qiugua Admin</span>
+                                        <span class="direct-chat-timestamp pull-left">2018/8/21 19:01</span>
+                                    </div>
+                                    <!-- /.direct-chat-info -->
+                                    <img class="direct-chat-img" src="rely/dist/img/user2.png" alt="message user image"><!-- /.direct-chat-img -->
+                                    <div class="direct-chat-text">
+                                       我很乐意。
+                                    </div>
+                                    <!-- /.direct-chat-text -->
+                                </div>
+                                <!-- /.direct-chat-msg -->
+
+                            </div>
+                            <!--/.direct-chat-messages-->
+
+                            <!-- Contacts are loaded here -->
+                            <div class="direct-chat-contacts">
+                                <ul class="contacts-list">
+                                    <li>
+                                        <a href="#">
+                                            <img class="contacts-list-img" src="rely/dist/img/user2.png" alt="User Image">
+
+                                            <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Count Dracula
+                                  <small class="contacts-list-date pull-right">2/28/2015</small>
+                                </span>
+                                                <span class="contacts-list-msg">How have you been? I was...</span>
+                                            </div>
+                                            <!-- /.contacts-list-info -->
+                                        </a>
+                                    </li>
+                                    <!-- End Contact Item -->
+                                    <li>
+                                        <a href="#">
+                                            <img class="contacts-list-img" src="rely/dist/img/user7-128x128.jpg" alt="User Image">
+
+                                            <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Sarah Doe
+                                  <small class="contacts-list-date pull-right">2/23/2015</small>
+                                </span>
+                                                <span class="contacts-list-msg">I will be waiting for...</span>
+                                            </div>
+                                            <!-- /.contacts-list-info -->
+                                        </a>
+                                    </li>
+                                    <!-- End Contact Item -->
+                                    <li>
+                                        <a href="#">
+                                            <img class="contacts-list-img" src="rely/dist/img/user3-128x128.jpg" alt="User Image">
+
+                                            <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Nadia Jolie
+                                  <small class="contacts-list-date pull-right">2/20/2015</small>
+                                </span>
+                                                <span class="contacts-list-msg">I'll call you back at...</span>
+                                            </div>
+                                            <!-- /.contacts-list-info -->
+                                        </a>
+                                    </li>
+                                    <!-- End Contact Item -->
+                                    <li>
+                                        <a href="#">
+                                            <img class="contacts-list-img" src="rely/dist/img/user5-128x128.jpg" alt="User Image">
+
+                                            <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Nora S. Vans
+                                  <small class="contacts-list-date pull-right">2/10/2015</small>
+                                </span>
+                                                <span class="contacts-list-msg">Where is your new...</span>
+                                            </div>
+                                            <!-- /.contacts-list-info -->
+                                        </a>
+                                    </li>
+                                    <!-- End Contact Item -->
+                                    <li>
+                                        <a href="#">
+                                            <img class="contacts-list-img" src="rely/dist/img/user6-128x128.jpg" alt="User Image">
+
+                                            <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  John K.
+                                  <small class="contacts-list-date pull-right">1/27/2015</small>
+                                </span>
+                                                <span class="contacts-list-msg">Can I take a look at...</span>
+                                            </div>
+                                            <!-- /.contacts-list-info -->
+                                        </a>
+                                    </li>
+                                    <!-- End Contact Item -->
+                                    <li>
+                                        <a href="#">
+                                            <img class="contacts-list-img" src="rely/dist/img/user8-128x128.jpg" alt="User Image">
+
+                                            <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Kenneth M.
+                                  <small class="contacts-list-date pull-right">1/4/2015</small>
+                                </span>
+                                                <span class="contacts-list-msg">Never mind I found...</span>
+                                            </div>
+                                            <!-- /.contacts-list-info -->
+                                        </a>
+                                    </li>
+                                    <!-- End Contact Item -->
+                                </ul>
+                                <!-- /.contatcts-list -->
+                            </div>
+                            <!-- /.direct-chat-pane -->
+                        </div>
+                        <!-- /.box-body -->
+                        <div class="box-footer">
+                            <form action="#" method="post">
+                                <div class="input-group">
+                                    <input type="text" name="message" placeholder="信息..." class="form-control">
+                                    <span class="input-group-btn">
+                            <button type="button" class="btn btn-warning btn-flat">发送</button>
+                          </span>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- /.box-footer-->
+                    </div>
+                    <!--/.direct-chat -->
+                </div>
+                <!-- /.col -->
+
+                <div class="col-md-6">
+                    <!-- USERS LIST -->
+                    <div class="box box-danger">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">新成员</h3>
+
+                            <div class="box-tools pull-right">
+                                <span class="label label-danger">8个新成员</span>
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body no-padding">
+                            <ul class="users-list clearfix">
+                                <li>
+                                    <img src="rely/dist/img/user.png" alt="User Image">
+                                    <a class="users-list-name" href="#">秋瓜</a>
+                                    <span class="users-list-date">今天</span>
+                                </li>
+                                <li>
+                                    <img src="rely/dist/img/user.png" alt="User Image">
+                                    <a class="users-list-name" href="#">秋瓜-1</a>
+                                    <span class="users-list-date">昨天</span>
+                                </li>
+                                <li>
+                                    <img src="rely/dist/img/user.png" alt="User Image">
+                                    <a class="users-list-name" href="#">秋瓜-2</a>
+                                    <span class="users-list-date">2018年8月22</span>
+                                </li>
+                                <li>
+                                    <img src="rely/dist/img/user.png" alt="User Image">
+                                    <a class="users-list-name" href="#">秋瓜-3</a>
+                                    <span class="users-list-date">2018年8月22日</span>
+                                </li>
+                                <li>
+                                    <img src="rely/dist/img/user.png" alt="User Image">
+                                    <a class="users-list-name" href="#">秋瓜-4</a>
+                                    <span class="users-list-date">2018年8月20日</span>
+                                </li>
+                                <li>
+                                    <img src="rely/dist/img/user.png" alt="User Image">
+                                    <a class="users-list-name" href="#">秋瓜-5</a>
+                                    <span class="users-list-date">2018年8月19日</span>
+                                </li>
+                                <li>
+                                    <img src="rely/dist/img/user.png" alt="User Image">
+                                    <a class="users-list-name" href="#">秋瓜-6</a>
+                                    <span class="users-list-date">2018年8月18日</span>
+                                </li>
+                                <li>
+                                    <img src="rely/dist/img/user.png" alt="User Image">
+                                    <a class="users-list-name" href="#">秋瓜-7</a>
+                                    <span class="users-list-date">2018年8月2日</span>
+                                </li>
+                            </ul>
+                            <!-- /.users-list -->
+                        </div>
+                        <!-- /.box-body -->
+                        <!-- /.box-footer -->
+                    </div>
+                    <!--/.box -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+
+            
+        </div>
+        <!-- /.col -->
+        <div class="col-md-4">
+            <!-- Info Boxes Style 2 -->
+            <div class="info-box bg-yellow">
+                <span class="info-box-icon"><i class="ion ion-ios-pricetag-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">库存</span>
+                    <span class="info-box-number">5,200</span>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                    </div>
+                    <span class="progress-description">
+                    30天内增加了50%.
+                </div>
+                <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+            <div class="info-box bg-green">
+                <span class="info-box-icon"><i class="ion ion-ios-heart-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">点赞</span>
+                    <span class="info-box-number">92,050</span>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 20%"></div>
+                    </div>
+                    <span class="progress-description">
+                    30天内增加20%。
+                  </span>
+                </div>
+                <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+            <div class="info-box bg-red">
+                <span class="info-box-icon"><i class="ion ion-ios-cloud-download-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">下载</span>
+                    <span class="info-box-number">114,381</span>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                    <span class="progress-description">
+                    30天内增长70%。
+                  </span>
+                </div>
+                <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+            <div class="info-box bg-aqua">
+                <span class="info-box-icon"><i class="ion-ios-chatbubble-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">帖子</span>
+                    <span class="info-box-number">163,921</span>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 40%"></div>
+                    </div>
+                    <span class="progress-description">
+                    30天内增加40%。
+                  </span>
+                </div>
+                <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+            <!-- /.box -->
+
+            <!-- PRODUCT LIST -->
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">最近添加的产品</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <ul class="products-list product-list-in-box">
+                        <li class="item">
+                            <div class="product-img">
+                                <img src="rely/dist/img/default-50x50.gif" alt="Product Image">
+                            </div>
+                            <div class="product-info">
+                                <a href="javascript:void(0)" class="product-title">秋瓜电视
+                                    <span class="label label-warning pull-right">1800元</span></a>
+                                <span class="product-description">
+                          秋瓜32英寸1080p 60Hz LED智能高清电视。
+                        </span>
+                            </div>
+                        </li>
+                        <!-- /.item -->
+                        <li class="item">
+                            <div class="product-img">
+                                <img src="rely/dist/img/default-50x50.gif" alt="Product Image">
+                            </div>
+                            <div class="product-info">
+                                <a href="javascript:void(0)" class="product-title">自行车
+                                    <span class="label label-info pull-right">700元</span></a>
+                                <span class="product-description">
+                          秋瓜7速自行车。
+                        </span>
+                            </div>
+                        </li>
+                        <!-- /.item -->
+                        <li class="item">
+                            <div class="product-img">
+                                <img src="rely/dist/img/default-50x50.gif" alt="Product Image">
+                            </div>
+                            <div class="product-info">
+                                <a href="javascript:void(0)" class="product-title">秋瓜盒一个<span class="label label-danger pull-right">350元</span></a>
+                                <span class="product-description">
+                          控制台捆绑集合。
+                        </span>
+                            </div>
+                        </li>
+                        <!-- /.item -->
+                        <li class="item">
+                            <div class="product-img">
+                                <img src="rely/dist/img/default-50x50.gif" alt="Product Image">
+                            </div>
+                            <div class="product-info">
+                                <a href="javascript:void(0)" class="product-title">游戏机
+                                    <span class="label label-success pull-right">399元</span></a>
+                                <span class="product-description">
+                          游戏机4 500GB 控制台 (PS4)
+                        </span>
+                            </div>
+                        </li>
+                        <!-- /.item -->
+                    </ul>
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer text-center">
+                    <a href="javascript:void(0)" class="uppercase">查看所有产品</a>
+                </div>
+                <!-- /.box-footer -->
+            </div>
+            <!-- /.box -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row --> 
+    <script src='https://gitee.com/qiugua/QiuguaTpl/widget_preview'></script>
+    <style>
+    .pro_name a{color: #4183c4;}
+    .osc_git_title{background-color: #fff;}
+    .osc_git_box{background-color: #fff;}
+    .osc_git_box{border-color: #E3E9ED;}
+    .osc_git_info{color: #666;}
+    .osc_git_main a{color: #9B9B9B;}
+    </style>   
+</section>
+<!-- /.content -->
+
+<!-- jQuery 2.2.3 -->
+<script src="rely/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="rely/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
 </html>
