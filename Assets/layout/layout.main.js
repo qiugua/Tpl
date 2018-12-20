@@ -603,6 +603,10 @@ $(function(){
                         {"id":"105","name":"排序表","parentId":"101","url":"","icon":"","order":"1","isHeader":"0","childMenus":""},
                         {"id":"106","name":"校验表","parentId":"101","url":"","icon":"","order":"1","isHeader":"0","childMenus":""},
                     ]},
+                    {"id":"200","name":"UI元素","parentId":"100","url":"","icon":"","order":"1","isHeader":"0","childMenus":[
+                        {"id":"201","name":"时间轴","parentId":"200","url":"timeline.html","icon":"","order":"1","isHeader":"0","childMenus":""},
+                        {"id":"202","name":"相册 V2","parentId":"200","url":"gallery_v2.html","icon":"","order":"1","isHeader":"0","childMenus":""}
+                    ]},
                     {"id":"200","name":"相册","parentId":"100","url":"","icon":"","order":"1","isHeader":"0","childMenus":[
                         {"id":"201","name":"相册 V1","parentId":"200","url":"gallery.html","icon":"","order":"1","isHeader":"0","childMenus":""},
                         {"id":"202","name":"相册 V2","parentId":"200","url":"gallery_v2.html","icon":"","order":"1","isHeader":"0","childMenus":""}
